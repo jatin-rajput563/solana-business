@@ -58,6 +58,30 @@
     left: 25%;
 }
 
+/* --------------section-2------------ */
+.mx-w-591 {
+    max-width: 591px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.Discover-btn {
+    padding: 15px 32px 15px 32px;
+    border-radius: 10px;
+    background: #F4241E;
+    color: white;
+}
+
+.Discover-btn:hover {
+    color: #F4241E;
+    background-color: white;
+}
 
 
 

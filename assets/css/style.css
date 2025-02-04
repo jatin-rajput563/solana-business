@@ -52,7 +52,8 @@
     color: white;
     background-color: #F4241E;
 }
-.svg-box-solana{
+
+.svg-box-solana {
     top: 50%;
     left: 25%;
 }
@@ -108,4 +109,13 @@
         right: 0 !important;
     }
 
+    .container {
+        max-width: 900px !important;
+    }
+}
+
+@media (max-width:1199px) {
+    .gap-38 {
+        gap: 11px;
+    }
 }

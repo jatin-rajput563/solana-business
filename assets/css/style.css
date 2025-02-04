@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.popins-family {
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    z-index: 10;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.rotate40 {
+    transform: rotate(40deg);
+}
+
+.rotate-45 {
+    transform: rotate(-44deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.nav-tags {
+    color: black;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.nav-tags:hover {
+    color: #F4241E;
+    font-weight: 600 !important;
+}
+
+.Connect-nav-btn {
+    padding: 12px 32px 12px 32px;
+    border-radius: 10px;
+    color: #F4241E;
+    background-color: white;
+}
+
+.Connect-nav-btn:hover {
+    color: white;
+    background-color: #F4241E;
+}
+.svg-box-solana{
+    top: 50%;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991.98px) {
+
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        background: red !important;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 3;
+        align-items: center;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
+}
